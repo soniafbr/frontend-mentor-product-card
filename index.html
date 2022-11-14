@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Solución Sonia Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body class="body-container">
+
+  <div class="container">
+
+    <div class="seccion image">
+        <img src="./images/image-product-mobile.jpg" alt="Preview" class="product-mobile">
+        <img src="./images/image-product-desktop.jpg" alt="Preview" class="product-desktop">
+    </div>
+
+    <section class="seccion text">
+      <!--Añadir subtítulo PERFUME desde el css con ::before 
+         Al principio -->
+      <!-- <span class="pie_foto">PERFUME</span> -->
+      <h1 class="main-title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="main-text">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+
+      <div class="comprar">
+        <span class="price">$149.99</span>
+        <del class="price-del">$169.99</del>
+      </div>
+      
+      <button class="cart">
+        <img src="./images/icon-cart.svg" alt="Add to Cart"> 
+        <span class="add">Add to Cart</span>
+      </button>
+      <!-- ó  ::after  
+        al final en el elemento que lo contiene-->
+    </section>
+
+  </div>
+
+</body>
+
+</html>
