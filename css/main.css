@@ -5,6 +5,7 @@
 
     color: var(--neutral-2);
     background-color: var(--primary-2);
+    min-height: 100vh;
 }
 
 /* 
@@ -20,8 +21,9 @@ vw --> viewport widhh
 
     max-width: var(--width-desktop);
     /*min-width: var(--max-width-mobile); */
-    width: 70%;
-    margin: 2% 15%;
+
+    height: 90vh;
+    margin: auto 10%;
     border-radius: var(--border-radius);
     background-color: var(--neutral-3);
     color: var(--neutral-2);
@@ -138,9 +140,11 @@ letter-spacing: .5em;
     body {
         font-size: clamp(.8rem, 5vw, .8rem); 
     }
-
+ 
     .container {
         display: block;
+        height: auto;
+        margin: 2%;
     }
 
     .product-desktop {
