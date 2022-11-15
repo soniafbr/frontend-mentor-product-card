@@ -20,8 +20,8 @@ vw --> viewport widhh
 
     max-width: var(--width-desktop);
     /*min-width: var(--max-width-mobile); */
-    width: 80%;
-    margin: 5% 10%;
+    width: 70%;
+    margin: 2% 15%;
     border-radius: var(--border-radius);
     background-color: var(--neutral-3);
     color: var(--neutral-2);
@@ -135,6 +135,9 @@ letter-spacing: .5em;
 /* Media queries */
 
 @media (max-width: 375px) {
+    body {
+        font-size: clamp(.8rem, 5vw, .8rem); 
+    }
 
     .container {
         display: block;
@@ -151,34 +154,7 @@ letter-spacing: .5em;
     .seccion {
         width: 100%;
     }
-    .text {
-        padding: 7%;
-    }
     
-    .main-text {
-        padding-bottom: 2%;
-        line-height: 1.8em;
-        font-size: 1em;
-    }
-
-    .main-title,
-    .price {
-        font-size: 2.2em;
-
-    }
-    .price {
-            margin-right: 1em;
-    }
-    .price-del
-    {
-        font-size: 1em;
-    }
-    /* .pie_foto 
-    {
-        margin-left: 2%;
-        margin-top: 2%;  
-    } */
- 
     .cart {
        margin-top: 1.1em;
     }
